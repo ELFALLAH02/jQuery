@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="hardpagestyle.css">
+  <script src="hardpagescript.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+  <div id="part_1">
+     <fieldset>
+       <legend>jQuery Validation</legend>
+       <form action="">
+         <table cellpadding="7"> 
+         <tr  >
+           <td >
+             <label for="name_x">Name:</label>
+           </td>
+           <td>
+             <input type="text" id="name_x" > 
+             <br>
+             <span id="name_v"></span>
+           </td>
+          
+         </tr>
+         <tr>
+          <td>
+            <label for="last_x">Last Name:</label>
+          </td>
+          <td>
+            <input type="text" id="last_x" >
+          <br>
+          <span id="last_v"></span>
+          </td>
+          
+            
+          
+        </tr>
+        <tr>
+          <td>
+            <label for="email_x">Email:</label>
+          </td>
+          <td>
+            <input type="email" id="email_x" >
+            <br>
+            <span id="email_v"></span>
+
+          </td>
+        </tr>
+        
+        
+        <tr>
+          <td>
+            <label for="pass_x">Password:</label>
+          </td>
+          <td>
+            <input type="password" id="pass_x" >
+            <br>
+            <span id="password_v"></span>
+        
+          </td>
+        </tr>
+        
+         
+        <tr>
+          <td>
+            <label for="pass_c_x">Confirm Password:</label>
+          </td>
+          <td>
+            <input type="password" id="pass_c_x" >
+          <br>
+          <span id="password_g_v"></span>
+           
+          </td>
+        </tr>
+
+       </table>
+       <button type="button" onclick="valid_form()">Validation</button>
+       <button type="reset">Reset</button>
+      </form>
+     
+     </fieldset>
+  </div>
+</body>
+<script>
+
+</script>
+</html>
